@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BILL MOTORS - Inventory</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/inventory.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <nav class="navbar">
+    <!-- Navigation -->
+        <div class="nav-links">
+            <a href="./index.html" class="nav-link">Home</a>
+            <a href="./inventory.html" class="nav-link active">Inventory</a>
+            <a href="./services.html" class="nav-link">Services</a>
+            <a href="./contact.html" class="nav-link">Contact</a>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div> </nav>
+</head>
+<header>
+    <div class="nav-brand">
+            </img class="fas fa-car"></img>
+            <span>BILL MOTORS</span>
+        </div> </header>
+<body>
+    <button class="category-btn active" data-target="vehicles">
+                    <!-- Inventory Hero --></button>
+    <section class="inventory-hero">
+        <div class="hero-content">
+            <h1>Our Collection</h1>
+            <div class="category-buttons">
+                 <i class="btn secondary" ><i class="fas fa-car" contextmenu="vehicles.html"> </i><a href="vehicles.html" >vehcles</a>
+          </i></i> 
+              
+                
+                  <i class="btn secondary"> <a href="electronics.html" class="fas fa-plug"> Electronics</a>
+               </i>
+                 <i class="btn secondary"class="fas fa-spray-can"> <a href="cosmetics.html"> cosmetics</a>
+               </i>
+                 
+               
+            </div>
+        </div>
+    </section>
+<section class="order-car">
+    <!-- Inventory Sections -->
+    <div class="inventory-container">
+        <!-- Filters --><b><strong><h>VEHICLE OUTSOURCING FORM</h></strong></b>
+        <p>Make a custom car order,bill motors always delivers</p>
+        <div class="filters-section">
+            <select id="brandFilter" class="filter">
+                <option value="">All Brands</option>
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+                <option value="mazda">Mazda</option>
+            </select>
+            <select id="priceFilter" class="filter">
+                <option value="">Price Range</option>
+                <option value="0-500000">Under 500K</option>
+                <option value="500000-1000000">500K - 1M</option>
+                <option value="1000000+">Above 1M</option>
+            </select>
+        </div>
+        </section>
+         <section class="booking-system">
+                    <div class="card" class="vehicle-card">
+            <img src="content://media/external/file/280749" alt="Honda Accord" class="card-image">
+          <div class="card-content">              
+            <h2>Vehicle Model: toyoya passo</h2>
+            <p><strong>Year:</strong> 2019</p>
+            <p><strong>Color:</strong> Black</p>
+            <p><strong>Mileage:</strong> 20,000 miles</p>
+          </div>
+        </div>
+        <!-- Add more vehicle cards as needed -->
+    </div><!-- Card content -->
+               
+</section>
+                <section class="booking-system">
+                    <div class="card" class="vehicle-card">
+            <img src="content://media/external/file/280750" alt="Honda Accord" class="card-image">
+          <div class="card-content">              
+            <h2>Vehicle Model: Honda Accord</h2>
+            <p><strong>Year:</strong> 2019</p>
+            <p><strong>Color:</strong> Black</p>
+            <p><strong>Mileage:</strong> 20,000 miles</p>
+          </div>
+        </div>
+        <!-- Add more vehicle cards as needed -->
+    </div><!-- Card content -->
+               
+</section>
+        <!-- Electronics Grid -->
+        <div id="electronics" class="category-section">
+            <div class="products-grid">
+                <!-- Sample Electronics Card -->
+                <div class="product-card">
+                    <!-- Card content -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Cosmetics Grid -->
+        <div id="cosmetics" class="category-section">
+            <div class="products-grid">
+                <!-- Sample Cosmetics Card -->
+                <div class="product-card">
+                    <!-- Card content -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vehicle Details Modal -->
+    <div id="vehicleModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="vehicle-details">
+                <!-- Vehicle details will be populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="topa.js"></script>
+</body>
+</html>
