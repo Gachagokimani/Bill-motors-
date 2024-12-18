@@ -5,9 +5,12 @@
     --desktop: 1024px;
     --large: 1200px;
 }
-.book-sys{
-    background-image: url('content://media/external/file/280754') no-repeat center center;
-}
+
+.book-sys{
+
+    background-image: url('content://media/external/file/280754') no-repeat center center;
+
+}
 /* Large Screens */
 @media screen and (min-width: 1200px) {
     .container {
