@@ -8,7 +8,7 @@
 
 .book-sys{
 
-    background-image: url('content://media/external/file/280754') no-repeat center center;
+    background-image: url('bima.jpg') no-repeat center center;
 
 }
 /* Large Screens */
@@ -23,7 +23,7 @@
 @media screen and (max-width: 1024px) {
     .section-header h2 {
         font-size: 2.2rem;
-         background-image: url('../images/homebackground.jpg') no-repeat center center;
+         background-image: url('..homebackground.jpg') no-repeat center center;
     }
     
   
@@ -31,7 +31,7 @@
     .insurance-container,
     .services-container {
         padding: 3rem;
-        background-image: url('../images/bima.jpg')
+        background-image: url('../bima.jpg')
     }
 }
 
@@ -62,7 +62,7 @@
     .services-tabs,
     .category-buttons,
     .filters-section {
-      background-image:   url('../images/porche3.jpg');
+      background-image:   url('../porche3.jpg');
         flex-direction: row;
         gap: 1rem;
     }
