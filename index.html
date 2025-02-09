@@ -138,48 +138,32 @@
 
                             <i class="fas fa-car"></i>
 
-                            Car Type
+                            <div class="financing-container">
+    <h2>Apply for Car Financing Today!</h2>
+    
+    <!-- Form to collect user details -->
+    <form id="carFinancingForm" onsubmit="submitFinancingForm(event)">
+        <label for="">Full Name:</label><br>
+        <input type="text" id="" name="" class='financing-input' required><br>
 
-                        </label>
+        <label for="">Email Address:</label><br>
+        <input type="email" id="" name="" class='financing-input' required><br>
 
-                        <select id="car-type" class="calc-control">
+        <label for="">Phone Number:</label><br>
+        <!-- Using pattern attribute to enforce phone number format -->
+        <input type='tel' pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder='123-456-7890' 
+               class='financing-input phone-format' required><br>
 
-                            <option value="economy">Economy</option>
+        <!-- Additional fields as needed -->
+        
+        <!-- Submit Button -->
+        <button type='submit' class='finance-submit-button'>Submit Application</button>
+        
+    </form>
 
-                            <option value="midsize">Midsize</option>
+</div>
 
-                            <option value="luxury">Luxury</option>
-
-                        </select>
-
-                    </div>
-
-
-
-                    <div class="calc-group">
-
-                        <label for="insurance-type">
-
-                            <i class="fas fa-shield-alt"></i>
-
-                            Insurance Type
-
-                        </label>
-
-                        <select id="insurance-type" class="calc-control">
-
-                            <option value="basic">Basic</option>
-
-                            <option value="premium">Premium</option>
-
-                            <option value="full">Full Coverage</option>
-
-                        </select>
-
-                    </div>
-
-                </div>
-
+<script src='script.js'></script>  
 
 
                 <!-- Price Breakdown -->
@@ -194,32 +178,9 @@
 
                     </div>
 
-                    <div class="breakdown-item">
+                    
 
-                        <span>Insurance:</span>
-
-                        <span id="insurance-price">kes 1010</span>
-
-                    </div>
-
-                    <div class="breakdown-total">
-
-                        <span>Total:</span>
-
-                        <span id="total-price"> kes 6560</span>
-
-                    </div>
-
-                    <button class="btn-reserve">Reserve Now</button>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
+                </div></section>
 
 
     <section class="price-calculator">
