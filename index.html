@@ -37,6 +37,52 @@
         </div>
     </section>
 
+    <!-- Quick Booking Section -->
+    <section class="book-sys">
+        <div class="section-header">
+            <h2>Quick Booking</h2>
+            <p>Reserve your dream car in minutes</p>
+        </div>
+        <div class="price-calculator">
+            <div class="calculator-container">
+                <!-- Calculator Form -->
+                <div class="calculator-form">
+                    <div class="calc-group">
+                        <label for="rental-days">
+                            <i class="fas fa-calendar"></i>
+                            Estimated Pick-up Days
+                        </label>
+                        <input type="number" id="rental-days" class="calc-control" min="1" value="1">
+                    </div>
+                    <div class="calc-group">
+                        <label for="car-type">
+                            <i class="fas fa-car"></i>
+                            Select Vehicle
+                        </label>
+                        <select id="car-type" class="calc-control">
+                            <option value="">Choose a vehicle</option>
+                            <option value="50">Economy - $50/day</option>
+                            <option value="75">Standard - $75/day</option>
+                            <option value="100">Luxury - $100/day</option>
+                            <option value="150">Premium SUV - $150/day</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- Price Breakdown -->
+                <div class="price-breakdown">
+                    <div class="breakdown-item">
+                        <span>Base Rate:</span>
+                        <span id="base-price">$0</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>Total:</span>
+                        <span id="total-price">$0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Financing Section -->
     <section class="financing-section">
         <div class="financing-container">
